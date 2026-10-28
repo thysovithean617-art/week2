@@ -1,0 +1,10 @@
+show databases;
+use hi;
+select * from countries;
+select * from employees;
+select concat(e.FIRST_NAME, " ", e.LAST_NAME) as FULLNAME, d.department_id, d.department_name from employees as e join departments as d on e.department_id = d.department_id;
+select * from jobs;
+select * from locations;
+select concat(e.FIRST_NAME, " ", e.LAST_NAME) as FULLNAME, d.department_id, d.department_name from employees as e join departments as d on e.department_id = d.department_id join locations where locations.city = "London"; 
+select concat(e.FIRST_NAME, " ", e.LAST_NAME) as FULLNAME, d.department_id, d.department_name, j.JOB_TITLE from employees as e join departments as d on e.department_id = d.department_id join locations as l on d.location_id = l.location_id join jobs as j on e.JOB_ID = j.JOB_ID where l.CITY = "London";
+select e.employee_id, e.last_name as employee_name, e.manager_id, m.last_name as manager_name from employees as e join employees as m on e.manager_id = m.employee_id;

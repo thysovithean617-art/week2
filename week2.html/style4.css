@@ -1,0 +1,91 @@
+body{
+    background-color: #fafafa;
+    font-family: san-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.profile-card {
+    background-color: white;
+    width: 300px;
+    padding: 30px 20px;
+    border-radius: 20px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+}
+.profile-img {
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #d37dd0;
+}
+.profile-card h2 {
+    margin: 0;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+}
+.handle {
+    margin: 4px 0 15px 0;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+.profile-card p {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.action {
+    display: flex;
+    gap: 10px;
+}
+.button-1 {
+    flex: 1;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 8px 0;
+    font-size: 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button-1:hover {
+    background-color: #1877f2;
+}
+.button-2 {
+    flex: 1;
+    background-color: #efefef;
+    color: #262626;
+    border: none;
+    padding: 8px 0;
+    font-size: 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button-2:hover {
+    background-color: #dbdbdb;
+}
+.button-3 {
+    flex: 1;
+    background-color: #cd5454;
+    color: #262626;
+    border: none;
+    padding: 8px 0;
+    font-size: 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button-3:hover {
+    background-color: #c13232;
+}

@@ -1,0 +1,33 @@
+.container {
+    background-color: grey;
+    padding: 20px 100px;
+}
+.box {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+p {
+    font-family: Arial;
+}
+button {
+    color: white;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.green {
+    background-color: green;
+}
+.orange {
+    background-color: orange;
+    color: black;
+}
+.purple {
+    background-color: purple;
+}
+button:hover {
+    opacity: 0.8;
+}

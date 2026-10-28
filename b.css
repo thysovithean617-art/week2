@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    height: 200px;
+    font-size: 3em;
+    text-align: center;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.item {
+    width: 200px;
+    height: 100px;
+}
